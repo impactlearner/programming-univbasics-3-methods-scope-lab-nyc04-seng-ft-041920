@@ -1,5 +1,6 @@
-status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-phrase = "It's-a me, Mario!"
+$status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+$phrase = "It's-a me, Mario!"
+$link = "It's Dangerous To Go Alone! Take This."
 def mario
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   phrase = "It's-a me, Mario!"
@@ -17,7 +18,7 @@ puts link
 end
 
 def all phrases
-puts (phrase)
-puts toadstool(status)
-puts link(phrase)
+puts status
+puts phrase
+puts link
 end
